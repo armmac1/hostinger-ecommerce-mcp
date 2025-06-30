@@ -18,7 +18,9 @@ npm run build
 
 * MacOS (zsh):
 ```json
-"hostinger-ecommerce": {
+{
+  "mcpServers": {
+    "hostinger-ecommerce": {
       "command": "node",
       "args": [
         "<path/to/hostinger-ecommerce-mcp/build/index.js>",
@@ -28,6 +30,8 @@ npm run build
         "<your-store-id>"
       ]
     }
+  }
+}
 ```
 
 
