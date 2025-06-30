@@ -16,6 +16,23 @@ npm run build
 
 3. MCP server configuration:
 
+* MacOS (zsh):
+```json
+"hostinger-ecommerce": {
+      "command": "node",
+      "args": [
+        "<path/to/hostinger-ecommerce-mcp/build/index.js>",
+        "--jwt",
+        "<your-jwt-token>",
+        "--store-id",
+        "<your-store-id>"
+      ]
+    }
+```
+
+
+
+* Windows (cmd):
 ```json
 {
   "mcpServers": {
